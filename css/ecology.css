@@ -1,0 +1,284 @@
+@font-face {
+	font-family: Roboto; 
+	src: url(../webfonts/Roboto-Thin.bin); 
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: Roboto; 
+	src: url(../webfonts/Roboto-Bold.bin); 
+	font-weight: bold;
+}
+
+
+.ecology {
+	font-family: "Roboto";
+}
+
+.ecology  h2 {
+	text-transform: uppercase;
+	background: none;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.ecology .slide-1 {
+	background-color: #182b49;
+	color: white;
+	padding: 75px;
+	background: url(https://static.hvalwaters.ru/images/pages/ecology/slide-1-bg.png)  center top no-repeat;
+}
+.ecology h1 {
+	font-family: "Roboto";
+	font-weight: lighter;
+	font-size: 50px;
+	display: block;
+	position: relative;
+	text-align: left;
+	z-index: 3;
+	color: white;
+	margin-bottom: 100px;
+}
+
+.ecology h1 b {
+	font-family: "Roboto";
+	font-weight: bold;
+	z-index: 4;
+}
+
+.ecology h1::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -50px;
+  width: 97px;
+  height: 89px;
+  background: url(https://static.hvalwaters.ru/images/pages/ecology/leaf-1.png) no-repeat left top;
+  z-index: 2;
+}
+
+.ecology h1 i {
+  position: absolute;
+  width: 77px;
+  height: 200px;
+  background: url(https://static.hvalwaters.ru/images/pages/ecology/leaf-2.png) no-repeat 0px 26px;
+  z-index: 2;
+
+}
+
+.ecology p {
+	font-size: 15px;
+}
+
+.ecology p::before {
+	height: 1px;
+	width: 80px;
+	border-top: 1px solid #f1d231;
+}
+/*  -------------- Slide 2 --------------- */
+
+.ecology .slide-2 {
+	color: #324c8c;
+	padding-top: 50px;
+	background: url(https://static.hvalwaters.ru/images/pages/ecology/slide-2-bg.jpg)  center top no-repeat;
+}
+
+.ecology .slide-2 h2 {
+
+	
+}
+
+/* ------- slide3 -------------------- */
+.ecology .slide-3 {
+	color: #324c8c;
+	padding-top: 50px;
+	background-color: black;
+}
+
+.ecology .slide-3 {
+	color: white;
+}
+
+
+/* ------------ slide 4 -------------- */
+
+.ecology .slide-4 {
+	color: #324c8c;
+}
+
+.ecology .slide-4 h3 {
+	color: white;
+	font-size: 24px;
+	color: #324c8c;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.ecology .slide-4 h3 .number{
+	font-size: 150px;
+	float: left;
+	line-height: 100px;
+	
+}
+
+
+
+.ecology .plastic-calc .title {
+	margin: 0;
+	padding: 0;
+
+}
+
+.ecology .plastic-calc .title > div:nth-child(2) {
+	border: 1px solid #0058a3;
+	border-bottom: none;
+	border-radius: 20px 20px 0 0;
+	position: relative;
+	height: 30px;
+}
+
+.ecology .plastic-calc .title > div:nth-child(2) span {
+	display: block;
+	position: absolute;
+	top: 7px;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ecology .plastic-calc .title-bottom {
+	margin: 0;
+	padding: 0;
+}
+
+.ecology .plastic-calc .title-bottom > div {
+	height: 15px;
+} 
+
+.ecology .plastic-calc .title-bottom > div:nth-child(1) {
+	position: relative;
+	padding: 0;
+}
+
+.ecology .plastic-calc .title-bottom > div i {
+	border-right: 1px solid #0058a3;
+	border-radius: 0 0 20px 0;
+	display: block;
+	height: 15px;
+	width: 100%;
+	position: absolute;
+	left: 1px;
+}
+
+
+
+.ecology .plastic-calc .title-bottom > div:nth-child(2){
+	border-right: 1px solid #0058a3;
+	
+}
+
+.ecology .plastic-calc .body{
+	border: 1px solid #0058a3;
+	padding: 20px;
+	border-radius: 20px 0 20px 20px;
+}
+
+.ecology .plastic-calc .form-control {
+	padding: 0 0 0 5px;
+	border-color: #0058a3;
+}
+
+.ecology .slide-5 {
+	position: relative;
+	background: transparent;
+	padding: 45px;
+	color: white;
+	background-color: green;
+}
+
+.ecology .slide-5 .half-man {
+	width: 276px;
+	height: 427px;
+	position: absolute;
+	top: -291px;
+	left: 757px;
+}
+
+.ecology .slide-5 h2, .ecology .slide-5 h3 {
+	color: white;
+}
+
+
+
+.ecology .slide-5 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.ecology .slide-5 h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+	
+}
+
+.ecology ul.bottles, .ecology ul.labels {
+	background: url(https://static.hvalwaters.ru/images/pages/ecology/slide-5-4.png) 32px bottom no-repeat;
+	margin-bottom: 10px;
+}
+
+.ecology ul.bottles li, .ecology ul.labels li {
+	background: url(https://static.hvalwaters.ru/images/pages/ecology/slide-5-6.png) 0 5px no-repeat;
+	margin-left: 36px;
+	padding: 5px 0 20px 50px;
+	display: block;
+}
+
+
+.ecology ul.bottles li.title {
+	margin: 0;
+	padding: 10px 0 50px 100px;
+	background: url(https://static.hvalwaters.ru/images/pages/ecology/slide-5-3.png)  0px 0px no-repeat;
+}
+
+
+.ecology ul.labels li.title {
+	margin: 0;
+	padding: 10px 0 50px 100px;
+	background: url(https://static.hvalwaters.ru/images/pages/ecology/slide-5-5.png)  0px 0px no-repeat;
+}
+
+.ecology .slide-5-5 strong {
+	color: white;
+	font-size: 20px;
+}
+
+.ecology .slide-6 {
+	color: #324c8c;
+}
+
+.ecology .slide-6 .advantages > div {
+	text-align: center;
+	text-transform: uppercase;
+    
+}
+
+@media only screen and (max-width: 1100px) {
+	.ecology .slide-5 .half-man  {
+		display: none;
+	}
+	
+	.ecology .slide-5 .slide-5-2, .ecology .slide-5 .slide-5-3 {
+		padding: 4px;
+		margin: 28px 10px 28px 10px;
+	}
+	
+	.ecology .slide-5 h3 {
+		top: -39px;
+		left: -28px;
+	}
+}
+

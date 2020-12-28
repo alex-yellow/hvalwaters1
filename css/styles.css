@@ -1,0 +1,691 @@
+h1 {
+	color: #0053a1;
+	font-size: 22px;
+	text-align: center;
+}
+
+
+h3 {
+	color: #0053a1;
+	font-size: 18px;
+}
+
+h4 {
+	color: #0053a1;
+	font-size: 16px;
+}
+
+h5 {
+	color: #0053a1;
+	font-size: 15px;
+}
+strong {
+	color: #4660a6;
+}
+
+a {
+	color: #337ab7;
+}
+
+.btn:hover, btn-primary:hover {
+	background-color: #9fdaf8;
+}
+
+.water-page ul.menu {
+	list-style-type: none;
+}
+
+.water-page {
+	color: #333;
+
+}
+
+.water-page .card {
+	padding: 10px;
+}
+
+.btn-primary {
+	background: #728ec8 !important;
+    border-color: #728ec8 !important;
+}
+
+ul.addresses {
+	list-style-type: none;
+}
+
+ul.addresses li {
+	padding: 7px;
+}
+
+ul.addresses li.is-primary label {
+	font-weight: bold;
+}
+
+.create-address input {
+	margin-bottom: 5px;
+}
+
+.has-error .select2-selection {
+    border-color: rgb(185, 74, 72) !important;
+}
+
+ul#cart-errors {
+	padding: 0;
+	color: red;
+}
+
+.water-page .menu {
+	margin-top: 150px;
+	padding-left: 30px;
+}
+
+.water-page .menu a {
+	display: block;
+	border-radius: 10px;
+	padding: 0 0 0 21px;
+	font-size: 12px;
+}
+
+.water-page .menu a:hover, .water-page .menu a.active {
+	background-color: yellow;
+	text-decoration: none;
+}
+
+.water-page h3 {
+	font-size: 18px;
+	font-weight: 350;
+	text-transform: uppercase;
+}
+
+.water-page .card {
+	background: rgb(245,247,247);
+	background: linear-gradient(180deg, rgba(245,247,247,1) 0%, rgba(245,247,247,0) 100%);
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+.water-page-gornaya {
+	color: #555555;
+}
+
+.water-page-gornaya h3 {
+	color: #00aba9;
+}
+
+.water-page-gornaya a, .water-page-gornaya strong {
+	color: #00aba9;
+}
+
+
+
+
+
+.water-page-gornaya .menu li {
+	margin: 6px 0 6px 0;
+}
+
+
+.water-page-gornaya .menu a:hover, .water-page-gornaya .menu a.active {
+	background-color: #00aba9;
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Biovita */
+
+.water-page-biovita hr {
+	border-top: 1px solid white;
+}
+
+.water-page-biovita .main-content {
+	background: #71869b url(https://static.hvalwaters.ru/images/layout/biovita-big-bg.png) no-repeat center top;
+	color: #314d6a;
+    font-size: 11px;
+}
+
+.water-page-biovita .main-left-spacer {
+	background: none;
+}
+
+
+.water-page-biovita .menu a {
+	color: #314d6a;
+}
+.water-page-biovita .menu a:hover, .water-page-biovita .menu a.active {
+	background-color: #cb2825;
+	color: white;
+}
+
+/* legendy baykala */
+
+.water-page.legendy-baykala .main-content {
+	background: #71869b url(https://static.hvalwaters.ru/images/layout/legendy-baykala-big-bg.png) no-repeat center top;
+	background-color: white;
+    font-size: 11px;
+}
+
+.water-page.legendy-baykala .menu a {
+	color: white;
+}
+.water-page.legendy-baykala .menu a:hover, .water-page.legendy-baykala .menu a.active {
+	background-color: green;
+	color: white;
+}
+
+
+/* Bonus page */
+
+.page-bonus .main-content {
+	background: #eaeff3 url(https://static.hvalwaters.ru/images/layout/bonus-big-bg.png) no-repeat center top;
+	color: #314d6a;
+    font-size: 11px;
+}
+
+.page-bonus-rules .main-content {
+	background: #eaeff3 url(https://static.hvalwaters.ru/images/layout/bonus-big-bg-2.png) no-repeat center top;
+	color: #314d6a;
+    font-size: 11px;
+}
+
+.page-bonus  .main-left-spacer, .page-bonus-rules  .main-left-spacer {
+	background: none;
+}
+
+.page-bonus .menu, .page-bonus-rules .menu {
+	margin-top: 380px;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+.page-bonus .menu a {
+	display: block;
+	border-radius: 10px;
+	padding: 0 0 0 21px;
+	font-size: 14px;
+	color: #e3000b;
+}
+
+.page-bonus .menu a:hover, .page-bonus .menu a.active {
+	background-color: #e3000b;
+	color: white;
+	text-decoration: none;
+}
+
+
+.page-bonus-rules .menu a {
+	display: block;
+	border-radius: 10px;
+	padding: 0 0 0 21px;
+	font-size: 14px;
+	color: white;
+}
+
+.page-bonus-rules .menu a:hover, .page-bonus-rules .menu a.active {
+	background-color: #00a5ff;
+	color: white;
+	text-decoration: none;
+}
+
+.page-bonus-rules .rules-list {
+	margin-top: 360px;
+	color: white;
+	font-size: 14px;
+}
+
+.page-delivery ul.periods {
+	list-style-type: none;
+}
+
+.page-delivery ul.periods li {
+	color: #0053a1;
+	font-size: 17px;
+}
+
+
+
+.page-catalog .categories-tree {
+	list-style: none;
+}
+
+.page-catalog .categories-tree li {
+	margin-top: 6px;
+}
+
+.page-catalog .product-prices { 
+	background-color: #ededed;
+	
+}
+
+.page-catalog .product-prices td {
+	padding: 5px;
+}
+
+.water-middle-logo {
+	display: block;
+	width: 535px;
+	height: 267px;
+	text-decoration: none;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.water-middle-logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.water-middle-logo:hover {
+	text-decoration: none;
+}
+
+.water-middle-logo .gornaya {
+	background: no-repeat right bottom url("https://static.hvalwaters.ru/images/pages/gornaya-middle-logo-bg.png");
+}
+
+
+.water-middle-logo .premium {
+	background: no-repeat right bottom url("https://static.hvalwaters.ru/images/pages/premium-middle-logo-bg.png");
+}
+
+
+.water-middle-logo .naturelle {
+	background: no-repeat right bottom url("https://static.hvalwaters.ru/images/pages/naturelle-middle-logo-bg.png");
+}
+
+
+.water-middle-logo .deluxe {
+	background: no-repeat right bottom url("https://static.hvalwaters.ru/images/pages/deluxe-middle-logo-bg.png");
+}
+
+
+.water-middle-logo .content {
+	width: 255px;
+	text-align: center;
+}
+
+
+.water-middle-logo .content p {
+	font-size: 14px;
+	color: #767676;
+	margin: 0;
+	font-weight: 200;
+}
+
+.water-middle-logo .content p.type {
+	color: #005596;
+	font-weight: bold;
+}
+
+.water-middle-logo .content p.price {
+	font-weight: 500;
+}
+
+.water-middle-logo .content p.price span {
+	font-size: 18px;
+}
+
+#login-form-sms-timer {
+	display: none;
+}
+
+#login-form-sms-timer p {
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+/* cart items */
+
+.cart-item-ctls {
+	width: 200px;
+}
+
+.cart-item-ctls > div {
+	float: left;
+}
+
+.cart-item-ctls .qty {
+	width: 90px;
+}
+
+.cart-item-ctls .item-amount {
+	padding: 7px 0 0 8px;
+	width: 70px;
+
+}
+
+
+.cart-items .sub-products {
+	text-align: right;
+	font-size: 12px;
+	color: #959595;
+}
+
+.cart-items .sub-products table{
+	width: 100%;
+	
+}
+
+/*
+.cart-items .cart-item .main-image {
+	flex: 0 0 60px;
+}
+*/
+#cart-form .select2-container {
+	margin-bottom: 6px;
+}
+
+#cart-form .product-replacements {
+	list-style: none;
+}
+
+#cart-form .product-replacements a {
+	display: block;
+}
+
+#cart-form .product-replacements a:hover {
+	text-decoration: none;
+	background-color: #f6f1ff;
+}
+
+#cart-form #register-password::-webkit-input-placeholder {
+
+  font-size: 12px;
+}
+#cart-form #register-password::::-moz-placeholder {
+
+  font-size: 12px;
+}
+#cart-form #register-password:::-ms-input-placeholder {
+
+  font-size: 12px;
+}
+#cart-form #register-password::placeholder {
+
+  font-size: 12px;
+}
+
+
+.cart-item {
+	position:relative;
+}
+
+.cart-item .disable-overlay {
+	height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+	z-index: 1000;
+	padding-top: 20px;
+	padding-right: 20px;
+	color: #0053a1;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 0 0 7px white;
+}
+
+#cart-products-summary h6 {
+	font-size: 12px;
+	color: #4660a6;
+}
+
+#cart-products-summary table {
+	width: 100%;
+	font-size: 11px;
+}
+
+/* ------------ end Cart ------------------ */
+
+.breadcrumb {
+	background: -moz-linear-gradient(left, rgba(240,245,251,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(240,245,251,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(240,245,251,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f5fb', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.breadcrumb a {
+	color: #0058a3 !important;
+}
+
+.basket-icon {
+	display: inline-block;
+	position: relative;
+	margin-top: 7px;
+}
+
+.basket-icon .badge {
+	display: inline-block;
+    position: absolute;
+    top: -4px;
+    right: 0;
+}
+
+#logo-20-years {
+	display: block;
+	color: #94b4d0;
+    height: 40px;
+    position: absolute;
+    left: 120px;
+    top: 60px;
+    z-index: 10;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#logo-20-years span {
+
+}
+
+#logo-20-years img {
+	height: 14px;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+
+.right-freeze .main-right-spacer {
+	background: white url(https://static.hvalwaters.ru/images/layout/right-bg-freeze.png) repeat-y left top;
+}
+
+
+ul.delivery-terms {
+	list-style-type: none;
+}
+
+ul.delivery-terms li {
+	margin-bottom: 6px;
+
+}
+
+ul.delivery-terms li > i {
+	font-size: 24px;
+	padding-top: 6px;
+}
+
+ul.delivery-terms li.green::before {
+	content: '';
+	width: 30px;
+	height: 20px;
+	background-color: rgba(167, 198, 57, 0.89);
+	display: inline-block;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+ul.delivery-terms li.yellow::before {
+	content: '';
+	width: 30px;
+	height: 20px;
+	background-color: #f8db6b;
+	display: inline-block;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+ul.delivery-terms li.red::before {
+	content: '';
+	width: 30px;
+	height: 20px;
+	background-color: #ec857d;
+	display: inline-block;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+ul.delivery-terms li.blue::before {
+	content: '';
+	width: 30px;
+	height: 20px;
+	background-color: #adddfb;
+	display: inline-block;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+
+#ecology-btn {
+	position: fixed;
+    display: block;
+    width: 200px;
+    height: 200px;
+    bottom: 240px;
+    right: 0px;
+}
+
+#hot-coolers-btn {
+	position: fixed;
+    display: block;
+    width: 200px;
+    height: 200px;
+    bottom: 20px;
+    right: 0px;
+}
+
+/* service */
+
+.service-page h2 {
+    color: white;
+    background-color: #0058a3;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+    margin: 20px 0 20px 0;
+}
+
+.service-page .offer {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100%;
+
+}
+
+.service-page .offer a {
+	display: block;
+	padding: 0;
+
+}
+
+.service-page .offer a span, .service-page .offer a p {
+	display: block;
+	width: 100%;
+	padding: 20px;
+}
+
+.service-page .offer a p {
+	line-height: 18px;
+	font-size: 13px;
+}
+.service-page .offer a.city span {
+	padding-top: 275px;
+}
+ 
+.service-page .offer a strong {
+	color: #21c2f8;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.service-page .offer a.kad, .service-page .offer a p {
+	border-top: 1px solid rgb(222, 226, 230);
+}
+
+.service-page .offer a:hover { 
+	background-color: rgba(0, 0, 255, 0.38);
+	text-decoration: none;
+	color: white;
+}
+
+.service-page .offer a:hover strong {
+	color: white;
+}	
+
+.service-page .offer-1 {
+	background-image: url(https://static.hvalwaters.ru/images/pages/service/service-8.jpg);
+}
+
+
+.service-page .offer-2 {
+	background-image: url(https://static.hvalwaters.ru/images/pages/service/service-2.jpg);
+}
+
+.service-page .offer-3 {
+	background-image: url(https://static.hvalwaters.ru/images/pages/service/service-9.jpg);
+}
+
+.service-page .offer-4 {
+	background-image: url(https://static.hvalwaters.ru/images/pages/service/service-2.jpg);
+}
+
+.blur {
+	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+	-o-filter: blur(4px);
+	-ms-filter: blur(4px);
+	filter: blur(4px);
+}
+
+@media only screen and (max-width: 950px) {
+	.water-middle-logo > div {
+	  background: none !important;
+  }
+   .basket-icon {
+	  display: none;
+  }
+  
+  #logo-20-years {
+	  display: none;
+  }
+  
+  #ecology-btn, #hot-coolers-btn  {
+	  display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .water-middle-logo {
+	  width: 100%;
+	  height: auto;
+  }
+  
+  .water-middle-logo > div {
+	  background: none !important;
+  }
+  
+  .water-middle-logo .content {
+	  width: 100%;
+  }
+  
+  .form-control, .select2-container  {
+	  margin-bottom: 8px;
+  }
+  
+  .water-page .menu {
+	  margin-top: 0;
+  }
+  
+  
+ 
+}
